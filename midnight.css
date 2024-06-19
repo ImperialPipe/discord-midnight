@@ -6,7 +6,7 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'Discord';
 
 	/* color of status indicators and window controls */
 	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
@@ -60,8 +60,8 @@
 
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
-	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
+	--discord-icon: block; /* discord icon */
+	--moon-icon: none; /* moon icon */
 	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
 	--moon-icon-size: auto;
 
@@ -644,7 +644,7 @@ button.button_dd4f85 /* small buttons */,
 	height: calc(var(--spacing) + 8px);
 }
 
-/* window controls */
+/* window controls 
 [class^='winButton'] > svg {
 	display: none;
 }
@@ -678,7 +678,7 @@ button.button_dd4f85 /* small buttons */,
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
 	background-color: var(--idle-indicator) !important;
-}
+}*/
 
 /* custom dm button moon icon */
 .childWrapper_f90abb > svg:not(.favoriteIcon_dcc7a4) {
